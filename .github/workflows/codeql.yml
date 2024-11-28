@@ -62,7 +62,7 @@ jobs:
       # Run unit tests or integration tests to catch runtime errors 
     - name: Run Tests
       run: |
-       ./gradlew test
+       ./mvn test
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
